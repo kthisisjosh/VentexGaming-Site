@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
+import Iframe from "react-iframe"
 
 
 const UserList = () => {
@@ -11,8 +12,8 @@ const UserList = () => {
           
         </Typography>
       </Grid>
-      <Grid item style={{margin: "auto", marginTop: "10vh"}}>
-        <iframe title="discord-widget" src="https://discordapp.com/widget?id=167039507663814657&theme=dark" style={{width: "350px", height: "500px"}} frameBorder={0} />
+      <Grid item style={{margin: "auto", marginTop: "7.5vh"}}>
+      <Iframe url="https://discordapp.com/widget?id=167039507663814657&theme=dark" width="450px" height="600px" />
       </Grid>
     </Grid>
   );

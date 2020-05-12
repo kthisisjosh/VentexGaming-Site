@@ -13,7 +13,7 @@ const Dashboard = () => {
         </Grid>
         <Grid container direction="column" style={{textAlign: "center", margin: "auto", marginLeft: "1.5vw", width: "100vw"}}>
           {screenshots.url.map(url => {
-            return <Grid item style={{textAlign: "center", marginLeft:"auto"}}>
+            return <Grid item style={{textAlign: "center", marginLeft:"auto", marginBottom: "1vh"}}>
                 <Paper>
                   <a href={url} target="_blank">
                     <img src={url} alt="screenshot-memory" style={{width: "50vw", height: "50vh", margin: "1vh 1vw"}}/>
