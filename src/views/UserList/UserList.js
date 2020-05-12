@@ -12,7 +12,7 @@ const UserList = () => {
         </Typography>
       </Grid>
       <Grid item style={{margin: "auto", marginTop: "10vh"}}>
-        <iframe src="https://discordapp.com/widget?id=167039507663814657&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+        <iframe src="https://discordapp.com/widget?id=167039507663814657&theme=dark" style={{width: "350px", height: "500px"}} allowTransparency={true} frameBorder={0} />
       </Grid>
     </Grid>
   );
