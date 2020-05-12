@@ -33,7 +33,7 @@ const Footer = props => {
       </Typography>
       <Link
       component="a"
-      href=""
+      href="https://github.com/kthisisjosh/VentexGaming-Site"
       target="_blank">
         <Typography variant="caption">
         View the code
